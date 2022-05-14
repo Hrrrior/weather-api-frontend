@@ -1,0 +1,38 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.weatherGrid,
+.weatherList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.buttons {
+  display: none;
+}
+
+.header {
+  padding: 1rem;
+  border-radius: 5px;
+  max-width: 100%;
+  display: flex;
+  background-color: #2b2d42;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  .weatherGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+}

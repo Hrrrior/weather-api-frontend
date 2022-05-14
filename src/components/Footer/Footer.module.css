@@ -1,0 +1,11 @@
+.root {
+  padding: 1rem 0;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: #2b2d42;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+}

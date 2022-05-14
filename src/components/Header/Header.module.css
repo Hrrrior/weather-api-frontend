@@ -1,0 +1,30 @@
+.root {
+  padding: 1rem 0;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b2d42;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 800px) {
+  .navLinks {
+    flex-direction: row;
+    gap: 1rem;
+  }
+}

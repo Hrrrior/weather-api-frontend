@@ -1,0 +1,18 @@
+.root {
+  padding: 1rem;
+  border-radius: 5px;
+  max-width: 100%;
+  display: flex;
+  background-color: #2b2d42;
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}

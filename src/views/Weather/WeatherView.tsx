@@ -5,7 +5,6 @@ import { faList, faBorderAll } from '@fortawesome/free-solid-svg-icons';
 import { useWeather } from '../../services/Weather/useWeather';
 
 import Weather from '../../components/Weather/Weather';
-// import AddWeather from '../../components/Weather/AddWeather';
 import LoadingIndicator from '../../components/LoadingIndicator/LoadingIndicator';
 
 import classes from './WeatherView.module.css';

@@ -1,7 +1,7 @@
 export interface IWeather {
   id: string;
   cityName: string;
-  cityId?: string;
+  cityId: string;
   country: string;
   temperature: string;
   humidity: string;
